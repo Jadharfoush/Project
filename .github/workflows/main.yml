@@ -21,4 +21,4 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: ${{ secrets.SSH_PORT }}
         script: |
-          touch /path/to/your/file.txt
+          touch /home/ubuntu/file.txt
